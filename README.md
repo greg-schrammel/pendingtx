@@ -1,14 +1,4 @@
-![WIP](https://img.shields.io/badge/status-wip-red)
-
-
 # Pending transaction
-
-> simple pending transaction watcher
-
-## Prerequisite
-Required:
-
-- Go
 
 ## Install
 
@@ -19,5 +9,6 @@ go mod tidy
 ## Usage
 
 ```sh
+source .envrc
 go run main.go
 ```

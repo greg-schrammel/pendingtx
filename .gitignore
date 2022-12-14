@@ -1,5 +1,6 @@
 .git
 log
+.envrc
 
 # Binaries for programs and plugins
 *.exe
