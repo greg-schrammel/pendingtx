@@ -78,7 +78,7 @@ func main() {
 		}
 
 		if isRouter(txn.To()) {
-			handleRouter(txn)
+			go handleRouter(txn)
 		}
 	}
 }
